@@ -28,8 +28,8 @@ TEST_CASE("la calculadora puede sumar", "[sum]")
 	
 	SECTION("puede sumar decimales")
 	{
-		REQUIRE( equals( calc.sum( 1.1f, 1.2f), 2.3f) );
-		REQUIRE( equals( calc.sum( 1.1, 1.2), 2.3) );
+		REQUIRE( equals( calc.sum(1.1f, 1.2f), 2.3f) );
+		REQUIRE( equals( calc.sum(1.1, 1.2), 2.3) );
 	}
 }
 
@@ -38,11 +38,7 @@ TEST_CASE("la calculadora puede sumar", "[sum]")
 
 int main ( int argn, char** argv )
 {
-	Calculadora calc;
-
-	std::cout << calc.sum(2,2) << std::endl;
-
-
+	
 	return 0;
 }
 
