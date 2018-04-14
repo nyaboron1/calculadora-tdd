@@ -4,5 +4,5 @@
 
 Calculadora::Calculadora()
 {
-	std::clog << "Created calculadora" << std::endl;
+	std::clog << "calculadora creada" << std::endl;
 }
