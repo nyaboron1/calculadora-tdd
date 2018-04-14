@@ -1,16 +1,13 @@
 # proyecto
 
-<p>
+<ul>
 
-Calculadora capaz de entender operaciones complejas.
+<li>Calculadora capaz de entender operaciones complejas</li>
 
-Implementar el algortimo shunting-yard para pasar las
-operaciones complejas a simples
+<li>Algortimo shunting-yard para pasar las
+operaciones complejas a simples</li>
 
-Implementar el algoritmo postfix algorithm para calcular
-el valor de la operaciones simples.
+<li>Algoritmo postfix algorithm para calcular
+el valor de la operaciones simples</li>
 
-
-se usará test driven development (TDD) para no programar
-a lo loco xD
-</p>
+</ul>
