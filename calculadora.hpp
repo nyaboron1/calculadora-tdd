@@ -11,6 +11,12 @@ public:
 
 	template <typename T>
 	T sub (T, T);
+
+	template <typename T>
+	T div (T, T);
+
+	template <typename T>
+	T mul (T, T);
 };
 
 template <typename T>
@@ -23,4 +29,16 @@ template <typename T>
 T Calculadora::sub (T a, T b)
 {
 	return a - b;
+}
+
+template <typename T>
+T Calculadora::div (T a, T b)
+{
+	return a / b;
+}
+
+template <typename T>
+T Calculadora::mul (T a, T b)
+{
+	return a * b;
 }

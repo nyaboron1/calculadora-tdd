@@ -28,9 +28,7 @@ TEST_CASE ("la calculadora puede sumar", "[sum]")
 
 	SECTION("puede sumar enteros con decimales")
 	{
-		// indicamos que ambos son float
 		REQUIRE (equals (calc.sum<float>(1, 1.2f), 2.2f));
-		// indicamos ambos <int>, perdida de decimales
 		REQUIRE (equals (calc.sum<int>(1, 1.2f), 2));
 	}
 }
