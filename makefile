@@ -7,3 +7,6 @@ main: $(OBJECTS)
 	$(CXX) $(CXXFLAGS) -o $@ $^
 
 $(OBJECTS): calculadora.hpp
+
+clean:
+	rm -f $(OBJECTS)
